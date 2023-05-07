@@ -7,13 +7,8 @@
     padding: 20px;
 }
 
-
-h1 {
+.titulo-centralizado {
     text-align: center;
-    height: 150px;
-    border: 5px solid #000000;
-    padding: 20px;
-    margin: 40px;
 }
 
 p {
@@ -32,10 +27,6 @@ em strong {
 .diferenciales {
     background: #FFFFFF;
     padding: 30px;
-}
-
-h2 {
-    text-align: center;
 }
 
 .item {
