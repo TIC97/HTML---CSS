@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/contacto.css">
     <title>Contacto</title>
 </head>
@@ -23,6 +24,44 @@
     </header>
     
     <main>
+        <form action="">
+
+            <label for="nombre_apellido">Nombre y Apellido</label>
+            <input type="text" id="nombre_apellido">
+
+            <label for="correo">Correo Electronico</label>
+            <input type="text" id="correo">
+
+            <label for="telefono">Telefono</label>
+            <input type="text" id="telefono">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="70" rows="10"></textarea>
+
+            <div>
+                
+                <p>Como le gustaria que lo contactemos ?</p>
+
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contacto" value="email" id="radio-email">
+    
+                <label for="radio-telefono">Telefono</label>
+                <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+                
+                <label for="radio-whatsApp">WhatsApp</label>
+                <input type="radio" name="contacto" value="whatsApp" id="radio-whatsApp">
+
+            </div>
+
+            <label for=""><input type="checkbox" name="" id="">Le gustaria recibir novedades de la Barberia Alura ?</label>
+            
+
+
+            <input type="submit" value="Enviar Formulario">
+
+        </form>
+
+
 
     </main>
     
